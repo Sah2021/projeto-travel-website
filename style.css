@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0; 
+}
+
+:root {
+  --background-color: #f1f1f1;  
+  --button-selected-color: #f44336;
+  --button-color01: #616161;
+  --button-color02: #f38981;
+  --gray-color:#f1f1f1;
+  --black-color: #000;
+  --white-color: #fff;
+}
+
+body {
+  font-family: 'Raleway', sans-serif; 
+  background-color: var(--gray-color);
+}   
+
+header {
+  background-color: var(--white-color);
+  padding: 15px;
+  width: 100%;  
+}
+
+header div#header { 
+  color: var(--button-selected-color);
+  max-width: 95%;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-location-dot {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  padding-left: 25px;
+}
+
+header div.fa-magnifying-glass {
+  color: var(--button-color01);
+}
+
+section.container-01{
+  background-color: var(--white-color);  
+  max-width: 100%; 
+  height: auto; 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+div.travel-world {
+  background-color: var(--white-color);
+  width: 100%;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul.menu {
+  width: 100%;
+  list-style: none;   
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.menu li {
+  background-color: var(--black-color); 
+  position: relative;  
+  width: 100%;  
+}
+
+ul.menu li i{
+  padding-right: 15px;
+}
+
+.menu li a {
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;  
+}
+
+.menu li a:hover{
+  background:var(--button-color01);
+  color:#fff;   
+}
+
+.menu li a.active {
+  background:var(--button-selected-color);  
+}
+
+div.content-travel-world {
+  padding: 25px 15px;
+}
+
+div.from-to {
+  padding-top: 20px; 
+}
+
+div input#from, input#to {
+  border: 1px solid #9c9c9c; 
+  padding: 10px;
+  margin: 3px 0px;
+  width: 90%;
+}
+
+section.container-02, 
+section.container-03,
+section.container-04,
+section.container-05 {  
+  max-width: 90%;
+  margin: auto;
+  padding-top: 20px;   
+}
+
+div.gallery-item {  
+  color: var(--white-color);
+  font-size: 1.2em;
+  margin: auto;
+  position: relative;
+}
+
+div.text-img {
+  position: absolute;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  left: 0;
+}
+
+div.gallery-item img{ 
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+div.content03{
+  padding-top: 15px;
+}
+
+div.content03 img{
+  width: 100%;
+}
+
+div.content03 h1, h4, h5 {
+  background-color: var(--white-color); 
+  padding: 15px;
+  margin-top: -10px;
+}      
+
+div.newsletter{
+  background-color:var(--button-color01);  
+  padding: 25px 5px 20px 15px;
+  color: var(--white-color);
+}
+
+div input#email-newsletter{  
+  padding: 10px; 
+  margin-top: 5px ; 
+  width:calc(100% - 35px);
+}
+
+div.contact span{  
+  padding-left: 25px;   
+}
+
+.contact i {
+  width: 10px;
+}
+
+.message input {
+  width: 90%;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #9c9c9c;
+}
+
+::placeholder {
+  color: #9c9c9c;
+  font-size: 1.2em;
+}
+
+.btn-search {
+  font-size: 15px; 
+  padding: 10px 15px; 
+  background-color: var(--button-color01);
+  border:none;
+  color: var(--white-color);  
+}
+.btn-search:hover {
+  background-color: #9c9c9c;
+}
+
+.btn-subscribe {
+  background-color: var(--button-color02);
+  color: var(--white-color);
+  margin-top: 12px;
+  padding: 9px 12px;
+  border: none;
+}
+.btn-subscribe:hover {
+  background-color: #f44336;
+}
+
+.btn-send-message {
+  background-color:var(--black-color);
+  color: var(--white-color);
+  text-transform: uppercase;
+  border: none;
+  padding: 15px 25px;
+}
+.btn-send-message:hover {
+  background-color: var(--button-color01);
+}
+
+footer, i.fa-brands{
+  color: var(--button-color01);  
+  margin: auto;  
+  text-align: center;
+}
+
+i.icon-midias:hover {
+  color: var(--black-color); 
+}
+
+a.link-w3:hover {
+  color: var(--button-selected-color); 
+}
+
+.none-decoration {
+ text-decoration: none;
+}
+.size-icon {
+  font-size: 1.4em;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fs-1 {
+  font-size: 1em;
+}
+.fs-12{
+  font-size: 1.2em;
+}
+.fs-15 {
+  font-size: 1.5em;
+}
+.fs-09 {
+  font-size: 0.9em;
+}
+.pt-1 {
+  padding-top: 1em;
+}
+.pt-15 {
+  padding-top: 1.5em;
+}
+.pb-05 {
+  padding-bottom: 0.5em;
+}
+.pb-1{
+  padding-bottom: 1em;
+}
+.pb-15 {
+  padding-bottom: 1.5em;
+}
+.pl-25 {
+  padding-left: 2.5em;
+}
+.pr-02 {
+  padding-right: 0.2em;
+}
