@@ -233,6 +233,10 @@ i.icon-midias:hover {
   color: var(--black-color); 
 }
 
+a.link-w3 {
+  color: #616161;
+}
+
 a.link-w3:hover {
   color: var(--button-selected-color); 
 }
